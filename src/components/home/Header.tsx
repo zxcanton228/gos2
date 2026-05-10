@@ -10,7 +10,7 @@ export default function Header() {
 
 			<div className='flex items-center gap-1'>
 				<span className='text-white font-bold text-lg tracking-wide'>
-					АРТЕМ
+					Кирилл
 				</span>
 				<svg width='14' height='14' viewBox='0 0 24 24' fill='none'>
 					<path
