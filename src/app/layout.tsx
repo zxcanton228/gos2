@@ -16,6 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Госуслуги',
 	description: 'Государственные услуги',
+	manifest: '/manifest.json',
+	appleWebApp: {
+		capable: true,
+		statusBarStyle: 'black-translucent',
+		title: 'Госуслуги',
+	},
 }
 
 export const viewport: Viewport = {
