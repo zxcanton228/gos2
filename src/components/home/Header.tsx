@@ -3,13 +3,15 @@ export default function Header() {
 		<div className='flex items-center gap-3 px-4 pt-5 pb-2'>
 			<div className='relative flex-shrink-0'>
 				<div className='w-11 h-11 rounded-full bg-gradient-to-br from-[#c0392b] to-[#e74c3c] flex items-center justify-center'>
-					<span className='text-white font-bold text-lg'>К</span>
+					<span className='text-white font-bold text-lg'>А</span>
 				</div>
 				<div className='absolute top-0 right-0 w-3 h-3 bg-red-500 rounded-full border-2 border-[#0c1220]' />
 			</div>
 
 			<div className='flex items-center gap-1'>
-				<span className='text-white font-bold text-lg tracking-wide'>КИРИЛЛ</span>
+				<span className='text-white font-bold text-lg tracking-wide'>
+					АРТЕМ
+				</span>
 				<svg width='14' height='14' viewBox='0 0 24 24' fill='none'>
 					<path
 						d='M9 18l6-6-6-6'
@@ -26,7 +28,12 @@ export default function Header() {
 			<button className='p-1'>
 				<svg width='22' height='22' viewBox='0 0 24 24' fill='none'>
 					<circle cx='11' cy='11' r='8' stroke='white' strokeWidth='2' />
-					<path d='M21 21L16.65 16.65' stroke='white' strokeWidth='2' strokeLinecap='round' />
+					<path
+						d='M21 21L16.65 16.65'
+						stroke='white'
+						strokeWidth='2'
+						strokeLinecap='round'
+					/>
 				</svg>
 			</button>
 
